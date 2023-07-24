@@ -35,53 +35,53 @@ function Login() {
             .catch(alertService.error);
     }
 
-    return (
-        <Layout>
-        <div className="bg-white rounded-lg p-8">
-          <h4 className="text-xl font-bold mb-4">Login</h4>
-          <form onSubmit={handleSubmit(onSubmit)}>
-            <div className="mb-4">
-              <label className="block mb-1 font-medium text-gray-700">Username</label>
-              <input
-                name="username"
-                type="text"
-                {...register('username')}
-                className={`w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-primary-500 focus:border-primary-500 ${
-                  errors.username ? 'border-red-500' : ''
-                }`}
-              />
-              {errors.username && (
-                <div className="text-red-500 text-sm mt-1">{errors.username.message}</div>
-              )}
-            </div>
-            <div className="mb-4">
-              <label className="block mb-1 font-medium text-gray-700">Password</label>
-              <input
-                name="password"
-                type="password"
-                {...register('password')}
-                className={`w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-primary-500 focus:border-primary-500 ${
-                  errors.password ? 'border-red-500' : ''
-                }`}
-              />
-              {errors.password && (
-                <div className="text-red-500 text-sm mt-1">{errors.password.message}</div>
-              )}
-            </div>
-            <button
-              disabled={formState.isSubmitting}
-              className="bg-primary-500 hover:bg-primary-600 text-white font-bold py-2 px-4 rounded"
-            >
-              {formState.isSubmitting && (
-                <span className="animate-spin inline-block h-4 w-4 mr-1 border-t-2 border-b-2 border-white rounded-full"></span>
-              )}
-              Login
-            </button>
-            <Link href="/account/register" className="text-primary-500 hover:text-primary-600 mt-2">
-              Register
-            </Link>
-          </form>
-        </div>
-      </Layout>
+    return (<></>
+      //   <Layout>
+      //   <div className="bg-white rounded-lg p-8 hidden">
+      //     <h4 className="text-xl font-bold mb-4">Login</h4>
+      //     <form onSubmit={handleSubmit(onSubmit)}>
+      //       <div className="mb-4">
+      //         <label className="block mb-1 font-medium text-gray-700">Username</label>
+      //         <input
+      //           name="username"
+      //           type="text"
+      //           {...register('username')}
+      //           className={`w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-primary-500 focus:border-primary-500 ${
+      //             errors.username ? 'border-red-500' : ''
+      //           }`}
+      //         />
+      //         {errors.username && (
+      //           <div className="text-red-500 text-sm mt-1">{errors.username.message}</div>
+      //         )}
+      //       </div>
+      //       <div className="mb-4">
+      //         <label className="block mb-1 font-medium text-gray-700">Password</label>
+      //         <input
+      //           name="password"
+      //           type="password"
+      //           {...register('password')}
+      //           className={`w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-primary-500 focus:border-primary-500 ${
+      //             errors.password ? 'border-red-500' : ''
+      //           }`}
+      //         />
+      //         {errors.password && (
+      //           <div className="text-red-500 text-sm mt-1">{errors.password.message}</div>
+      //         )}
+      //       </div>
+      //       <button
+      //         disabled={formState.isSubmitting}
+      //         className="bg-primary-500 hover:bg-primary-600 text-white font-bold py-2 px-4 rounded"
+      //       >
+      //         {formState.isSubmitting && (
+      //           <span className="animate-spin inline-block h-4 w-4 mr-1 border-t-2 border-b-2 border-white rounded-full"></span>
+      //         )}
+      //         Login
+      //       </button>
+      //       <Link href="/account/register" className="text-primary-500 hover:text-primary-600 mt-2">
+      //         Register
+      //       </Link>
+      //     </form>
+      //   </div>
+      // </Layout>
     );
 }

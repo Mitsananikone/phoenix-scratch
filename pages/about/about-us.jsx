@@ -2,7 +2,7 @@
 
 "use client";
 
-import { userService } from "services";
+// import { userService } from "services";
 
 export default function AboutUs() {
   return (

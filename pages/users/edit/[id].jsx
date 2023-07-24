@@ -21,10 +21,10 @@ function Edit() {
     //         .catch(alertService.error)
     // }, [router]);
 
-    return (
-        <Layout>
-            <h1>Edit User</h1>
-            {user ? <AddEdit user={user} /> : <Spinner />}
-        </Layout>
-    );
+    return (<></>
+    //     <Layout>
+    //         <h1>Edit User</h1>
+    //         {user ? <AddEdit user={user} /> : <Spinner />}
+    //     </Layout>
+     );
 }
