@@ -15,7 +15,7 @@ export default function HeroBanner() {
   };
 
   return (
-    <div className="relative w-full mt-0 ">
+    <div className="relative w-full mt-0 z-0">
       <Slider {...settings}>
         <div className="relative h-90 overflow-hidden rounded-lg md:h-96">
           <img src="/images/home/herobanner1.png" className="absolute block w-full h-full inset-0 object-cover" alt="Image 1" />

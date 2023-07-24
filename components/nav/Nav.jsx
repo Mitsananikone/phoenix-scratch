@@ -22,10 +22,11 @@ export default function Nav() {
   // if (!user) return null;
 
   return (
-    <nav className={"flex items-center justify-center bg-highlight px-3 py-2"}
+    <nav className={"flex items-center justify-center px-3 py-2"}
     >
     <div className="flex items-center justify-center">
   <div className="flex ">
+    <NoDropDown linkTo="/home/page" buttonText="Home" />
     <DropdownAbout />
     <DropdownPlasticSurgery />
     <DropdownSurgeons />

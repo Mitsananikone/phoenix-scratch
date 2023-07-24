@@ -59,7 +59,7 @@ import { Alert } from '../components/Alert';
                 <Nav />
                 <Alert />
                 {/* {authorized && */}
-                    <div className="flex items-center justify-center  ">
+                    <div className="flex items-center justify-center">
                         <Component {...pageProps} />
                     </div>
                 {/* } */}

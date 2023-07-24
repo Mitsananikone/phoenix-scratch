@@ -38,21 +38,21 @@ export default function ServiceDetailsSection() {
 
     return (
         <motion.section 
-            className="bg-transparent py-12 px-4 sm:px-6 lg:px-8 mx-auto" 
+            className="bg-transparent py-12 px-4 sm:px-6 lg:px-8 mx-auto mt-32" 
             variants={container}
             initial="hidden"
             animate="show"
         >
             <div className="max-w-7xl mx-auto">
-                <h2 className="text-center text-3xl leading-9 font-extrabold text-gray-900">
+                <h2 className="text-center text-3xl leading-9 font-extrabold text-white">
                     Service Details
                 </h2>
                 <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
                     {serviceDetails.map((detail, index) => (
                         <motion.div key={index} className="rounded-lg shadow-lg overflow-hidden p-6 bg-white bg-opacity-20" variants={item}>
-                            <img src={detail.image} className="w-full h-32 object-cover mb-4 rounded" alt={detail.title} />
-                            <h3 className="text-2xl mb-4 font-semibold">{detail.title}</h3>
-                            <p className="text-gray-500">{detail.content}</p>
+                            <img src={detail.image} className="w-full h-32 object-cover mb-4 rounded " alt={detail.title} />
+                            <h3 className="text-2xl mb-4 font-semibold text-gray-300">{detail.title}</h3>
+                            <p className="text-gray-300">{detail.content}</p>
                         </motion.div>
                     ))}
                 </div>
