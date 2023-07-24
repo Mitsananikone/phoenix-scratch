@@ -11,7 +11,7 @@ export default function Introduction() {
             <div className="w-full sm:w-1/2 md:w-1/3 px-2 mb-6">
                 <div className="p-6 bg-orange-400 bg-opacity-80 rounded">
                     <h3 className="text-2xl mb-4 font-semibold">Exclusive Services</h3>
-                    <p>We offer a comprehensive array of personalized services, carefully crafted to meet your unique needs. Backed by our expert team, we strive to ensure you receive the pinnacle of care, blending luxury with world-class medical expertise for an unmatched experience."</p>
+                    <p>We offer a comprehensive array of personalized services, carefully crafted to meet your unique needs. Backed by our expert team, we strive to ensure you receive the pinnacle of care, blending luxury with world-class medical expertise for an unmatched experience</p>
                 </div>
             </div>
             <div className="w-full sm:w-1/2 md:w-1/3 px-2 mb-6">

@@ -36,7 +36,7 @@ export default function PricingSection() {
           Surgeries
         </h2>
         <p className="text-center text-gray-300 mb-8">
-        Thailand is a global leader in the field of professional plastic surgery, recognized for its advanced technology, innovative techniques, and highly skilled surgeons. The Country's aesthetic medicine industry is renowned for its ability to combine medical excellence with exceptional patient care, delivering world-class results in a variety of surgical procedures. Whether it's a subtle enhancement or a comprehensive transformation, Thai plastic surgery clinics provide unparalleled expertise, ensuring optimal outcomes and the highest standards of safety.
+        Thailand is a global leader in the field of professional plastic surgery, recognized for its advanced technology, innovative techniques, and highly skilled surgeons. The Countrys aesthetic medicine industry is renowned for its ability to combine medical excellence with exceptional patient care, delivering world-class results in a variety of surgical procedures. Whether its a subtle enhancement or a comprehensive transformation, Thai plastic surgery clinics provide unparalleled expertise, ensuring optimal outcomes and the highest standards of safety
         </p>
 
         <div className="flex justify-center mb-8 text-white">
